@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>FINGER THIEF | Case Studies </title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="aos/css/animations.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.typekit.net/pol7rpz.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+  <!--nav bar-->
+  <div class="topnav" id="topnav">
+    <a href="index.html"><b>FINGER THIEF</b></a>
+  <div class="menuright">
+    <a href="about.html">ABOUT</a>
+    <a href="casestudies.html" class="active"><span class="rainbow">CASE STUDIES</span></a>
+    <a href="contact.html">CONTACT</a><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  </div>
+
+<h1>CASE STUDIES</h1>
+
+<p class="para">Last year I lived it up in Edinburgh. <br></br>When I wasn’t admiring Gothic Architecture, I made stuff like this.</p>
+
+
+<!-- Buttons -->
+<div class="casestudies-boxes">
+<button class="boxes" style="background-color: #76D6C4;" onClick=(showModal('modal1'))>
+    <img src="images/icons/ventrilocat.png"><p>VENTRILOCAT</p>
+</button>
+<button class="boxes" style="background-color: #AD85FF;" onClick=(showModal('modal3'))>
+    <img src="images/icons/pool.png"><p>POOL STORY</p>
+</button>
+<button class="boxes" style="background-color: #F29B12;" onClick=(showModal('modal4'))>
+    <img src="images/icons/sustainable.png"><p>GARDENSHARE</p>
+</button>
+<button class="boxes" style="background-color: #E64B3C;" onClick=(showModal('modal2'))>
+    <img src="images/icons/witch.png"><p>WITCH MUM</p>
+</button>
+</div>
+
+<div class="CScontainer">
+  <span class="close-background" id="close-modals" onClick=(closeModal())></span>
+
+<!-- Modals -->
+<div class="modal" id="modal1">
+
+  <div>
+    <video controls autoplay>
+      <source src="images/ventrilocat/catfinal.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+
+  <div id="PORTFOLIO"><h3><strong>VENTRILOCAT</strong></h3></div>
+
+   <div class="case-study-thirds ">
+      <div style="flex-grow: 1">
+        <p><b>Brief /</b> Playful Interaction</p>
+        <p><b>Role /</b> UX, Physical Building</p>
+        <p><b>Software /</b>Arduino IDE</p>
+        <p><b>Hardware /</b>Arduino Uno, Adafruit Audio, Heart Rate Sensor</p>
+      </div>
+
+       <div style="flex-grow: 2">
+         <p class="description"> Ventrilocat is the answer to a cheap interactive technology using an Arduino system. It was designed to help users manage and communicate their mental health.
+  <br></br>
+  Brief completed in 4 months.
+    </p>
+       </div>
+   </div>
+
+   <div class="row">
+     <div class="column">
+       <img src="images/ventrilocat/timeline.png" alt="Snow" style="width:100%">
+     </div>
+     <div class="column">
+       <img src="images/ventrilocat/story2.png" alt="Forest" style="width:100%">
+     </div>
+     <div class="column">
+       <img src="images/ventrilocat/breakdown.png" alt="Mountains" style="width:100%">
+     </div>
+   </div>
+
+   <div class="case-study-thirds">
+   <div style="flex-grow: 2">
+     <h4>Research</h4>
+     <p><b>Code / </b>To understand the possibilities of Arduino, we spent 3 months
+       completing software challenges, online tutorials & reading about the hardware.
+   <br></br>
+   <b>Gadget / </b>We took a hard look at the technological market to find there are
+   many ways to keep track of physical health, but next to none when it comes to
+   mental health. From there, we delved into wearables which focused on hedonism.
+   Our project had never been made before, but with a little imagination we combined
+   a basic health monitor with LED eyeshadow.
+
+   <div id="more">
+   <a href="images/ventrilocat/ventrilocat.pdf" download><button>View Pitch</button></a>
+   </div>
+ <br></br>
+     <h4>Process</h4>
+     <p><b>Time / </b>This project was extremely pushed for time therefore required a
+       strict schedule with intense research & learning.</p>
+
+  <p><b>Problem Solving / </b>Due to the steep learning curve, with 0 previous
+    experience the project hit walls daily. We had to be extremely persistent and
+    creative to overcome the constant challenges.</p>
+
+  <p><b>Sewing / </b>I was able to show off my sewing & embroidery skills in making
+    the casing for our wearable.</p>
+
+
+     <h4>Reflection</h4>
+     <p><b>Discovery / </b>This was my first taste of university-level coding.
+       Not only can I write basic code in Arduino as well as Processing, I’m also able
+       to output it to LED and sound!
+       <br></br>
+       <b>Improvements /</b> To ensure it is in full working order, we had to keep
+    this project very minimal. I would love nothing more than to develop it with an
+    array of high tech sensors.</p>
+   </div>
+
+   <div style="flex-grow: 1">
+  <img src="images/ventrilocat/ventrilocat-animation.gif" alt="Mountains" style="width:100%">
+  </div>
+  </div>
+
+  <div>
+  <span class="close" onClick=(closeModal())>&times;</span>
+  </div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="modal" id="modal2">
+
+  <div class="casestudy">
+    <img id="full-width" src="images/witch_mum/conceptimage.png">
+  </div>
+  <div id="PORTFOLIO"><h3><strong>WITCH MUM SURVIVAL GUIDE</strong></h3>
+  </div>
+
+  <div class="case-study-thirds ">
+    <div style="flex-grow: 1">
+
+      <p><b>Brief /</b> Animated Film Concept</p>
+      <p><b>Role /</b> Sketches, Art Direction, Editing</p>
+      <p><b>Software /</b> Photoshop, After Effects, Final Cut</p>
+      <p><b>Hardware /</b> Wacom Tablet</p>
+
+    </div>
+      <div style="flex-grow: 2">
+
+  <p class="description"> “Witch Mum Survival Guide” is a concept for a 12 episode animated series. The idea for my mini-series was to create a show which would appeal to an entire family, creating a feeling of relativity and a means of reflection at the end of a long hard week for every member. <br></br> Brief completed in 2 months.</p>
+
+      </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img src="images/witch_mum/sketch3.png" alt="Snow" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/witch_mum/sketch4.png" alt="Forest" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/witch_mum/sketch5.png" alt="Mountains" style="width:100%">
+    </div>
+  </div>
+
+   <div class="third-para">
+     <h4>Research</h4>
+     <p><b>Story /</b> Having lived in Scotland for a month, the first step of this
+       project was researching Scottish folklore. I concentrated on stories which were
+        already slightly popular so I could build on my audience’s curiosity, but not
+        so popular that I breaking down century old stereotypes, forcing my audience
+        into cognitive dissonance.
+        <br></br><b>Style /</b> I studied various animation styles until I found the
+        most fitting in terms of appeasing my target audience. I wanted realism but a
+        style simple enough to be produced at low cost for distributors such as Adult
+        Swim. As a family movie, I needed the show to carry strong morals and unravel
+        like an allegory. Amy Sherman-Palladino, creator of cult show “Gilmore Girls”,
+        names this as the success of her show. </p>
+   </div>
+
+
+  <div class="case-study-thirds-image">
+    <div style="flex-grow: 1">
+      <img src="images/witch_mum/house2.png" alt="Mountains" style="width:100%">
+    </div>
+      <div style="flex-grow: 2">
+     <img src="images/witch_mum/house1.png" alt="Mountains" style="width:100%">
+      </div>
+  </div>
+
+  <div class="third-para">
+    <h4>Process</h4>
+      <p>
+    <b>Art / </b>Photos and sketches are key. For inspiration I used Pinterest, & the stunning architecture of Edinburgh. Its metropolitan tweaks helped me create a modern spin on ancient lore. The lead, Gaudy was designed to draw in mothers who would put the show on. The relatable b-list characters would entice the rest of the family to keep watching.
+    </p>
+    <div id="more">
+    <a href="images/witch_mum/witch1.pdf" download><button>View Research</button></a>
+    <a href="images/witch_mum/witch2.pdf" download><button>View Process</button></a>
+    </div>
+  </div>
+
+
+  <div class="third-para">
+    <h4>Reflection</h4>
+    <p><b>Discovery / </b>1 week to draw 40 frames - the main skill I learned was speed drawing!
+    <br></br><b>Improvements / </b>In retrospect I wish I’d done this project in illustrator, as is the industry standard. I also wish I made better use of colour as a means of wayfinding.
+    </p>
+  </div>
+
+  <div class="videowrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FjOZAGhP260?controls=0"
+    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+
+  <span class="close" onClick=(closeModal())>&times;</span>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="modal" id="modal3">
+
+  <div class="casestudy">
+    <img id="full-width" src="images/poolstory/poolfront.png">
+  </div>
+
+  <div id="PORTFOLIO"><h3><strong>POOL STORY</strong></h3></div>
+
+  <div class="case-study-thirds ">
+    <div style="flex-grow: 1">
+
+      <p><b>Brief /</b> Playful Interaction</p>
+      <p><b>Role /</b> UX, Physical Building</p>
+      <p><b>Software /</b> Photoshop, After Effects</p>
+
+    </div>
+      <div style="flex-grow: 2">
+
+  <p class="description"> A 2 minute psychological drama about breaking through solipsism.
+    The story is set in Dalry Swim Centre, located in the Merchiston area of Edinburgh.
+    This piece is 2 dimensional, created fully in Photoshop & After Effects.
+  <br> </br>
+    Brief completed
+    within 4 months.</p>
+
+      </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img src="images/poolstory/pool-stairs.png" alt="Snow" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/poolstory/dalry.png" alt="Forest" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/poolstory/desk.png" alt="Mountains" style="width:100%">
+    </div>
+  </div>
+
+  <div class="third-para">
+    <h4>Research</h4>
+    <p><b>Reference / </b>The research aspect of this project was extremely hands on:
+      I asked Dalry Swim Centre if I could come in and take photos to base sketches on.
+       <br></br>
+       <b>Style / </b> In figuring out the style, I compiled a moodboard on Pinterest and analysed
+       movies of similar styles such as the works of Daniel Gies.
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img src="images/poolstory/pinklady.png" alt="Uh oh! PinkLady.png is a little shy. Download the presentation to see all character designs." style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/poolstory/charface.png" alt="Forest" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/poolstory/modelsheet.png" alt="Mountains" style="width:100%">
+    </div>
+  </div>
+
+  <div class="third-para">
+  <h4>Process</h4>
+  <p><b>Character Design / </b>The high detail illustration meant endless hours of
+    tedious drawing. It was very important to break down each character limb by limb
+    so I could animate complicated movement such as swimming, using one drawing.
+     <br></br>
+     <b>Animation / </b> Similarly, I paid attention to the most intricate of details
+     to give the characters’ movements realism which complemented the textured style.
+     <div id="more">
+     <a href="images/poolstory/poolstory.pdf" download><button style="text-align: left;">View Presentation</button></a>
+     </div>
+  </div>
+
+
+
+  <div class="third-para">
+  <h4>Reflection</h4>
+  <p><b>Discovery / </b>How to professionally break characters down for industry
+    standard animation.
+     <br></br>
+     <b>Improvements / </b> This project taught me I need more practice with walking
+     cycles. Throughout my animation these looks unnatural, breaking the immersive
+     illusion.
+   </div>
+
+  <div class="videowrapper">
+  <iframe src="https://player.vimeo.com/video/265589954" width="640" height="271"
+  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+
+  <span class="close" style="text-align: center;" onClick=(closeModal())>&times;</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="modal" id="modal4">
+
+  <div class="casestudy">
+    <img id="full-width" src="images/axure/cover.png">
+  </div>
+
+  <div id="PORTFOLIO"><h3><strong>GARDEN SHARE</strong></h3></div>
+
+  <div class="case-study-thirds ">
+    <div style="flex-grow: 1">
+
+      <p><b>Brief /</b> Practical Interaction</p>
+      <p><b>Role /</b> Prototyping </p>
+      <p><b>Software /</b> Axure, Pages</p>
+
+    </div>
+      <div style="flex-grow: 2">
+
+  <p class="description"> Garden Share is an app made to bring together small communities
+    within cities, through sustainable gardening. It it designed for iPad, with the intent
+     of promoting healthy living while social networking. The app is targeted at new
+     adults, young parents, and retirees.
+
+  <br> </br>
+    Brief completed
+    within 4 months.</p>
+
+      </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img src="images/axure/sketch1.png" alt="Snow" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/axure/sketch2.png" alt="Forest" style="width:100%">
+    </div>
+  </div>
+
+  <div class="third-para">
+    <h4>Research</h4>
+    <p><b>Idea / </b>To create my prototype, I studied sustainability in an attempt to
+      understand its bare bones. Next, I gathered scholarly articles on sustainable
+      technologies currently being researched, created and funded across the world.
+       <br></br>
+       <b>App / </b>To visualise the app, I carried out a 20-in-20 exercise, followed by
+       a lot of sketching, colour & design studies.
+
+       <div id="more">
+       <a href="images/gardenshare/essay.pdf" download><button>View Research</button></a>
+       </div>
+
+  </div>
+
+  <div class="third-para">
+  <h4>Process</h4>
+  <p><b>Mock Up / </b>This prototype was fully made in Axure. I found the program to
+    have a much steeper learning curve that InVision but rarely arrived at dead ends.
+    With a lot of googling and processes which I was shocked to find hadn’t been automated
+     yet, I mocked up Gardenshare within 1 month.
+     <br></br>
+     <b>Feedback / </b> To visualise the app, I carried out a 20-in-20 exercise, followed
+     by a lot of sketching, colour & design studies.
+
+     <div id="more">
+     <a href="images/gardenshare/feedback.pdf" download><button>View Feedback</button></a>
+     </div>
+
+  </div>
+
+  <div class="third-para">
+  <h4>Reflection</h4>
+  <p><b>Discovery / </b>I used Axure programme as UX researchers at Napier University
+    had done substantial studies showing it is more beneficial to learn as compared
+    with InVision. In retrospect, in terms of designing and showcasing I believe the
+    latter is much better and will definitely be using it in the future.
+     <br></br>
+     <b>Improvements / </b> Too often my users were unaware of functions and didn’t
+     know how to move on to the next step. Garden Share definitely needs critical way
+     finding improvements through captions and buttons.
+   </div>
+
+   <span class="close" onClick=(closeModal())>&times;</span>
+
+</div>
+
+<div class="footer">
+
+    <div class="grid-container">
+
+  <div class="grid-item">
+    <p>
+    hi@fingerthief.com <br></br>
+    07936536558<br></br>
+    ©Whipped up by a highly caffeinated Oliwia Widuto in 2018.
+   </p>
+  </div>
+
+    <div class="grid-item" style="justify-self: end; padding-right: 1.5em;">
+     <ul>
+
+      <li><a href="https://twitter.com/Strawdairy">
+      <img alt="twitter.com/strawdairy" src="images/icons/social/twitter.png">
+      </li>
+
+      <li><a href="https://www.instagram.com/strawdairy">
+      <img alt="www.instagram.com/strawdairy" src="images/icons/social/IG.png"></td>
+      </li>
+
+      <li><a href="https://oliwiawidutoresearch.tumblr.com">
+      <img alt="oliwiawidutoresearch.tumblr.com" src="images/icons/social/tumblr.png">
+      </li>
+
+     </ul>
+  </div>
+
+</div>
+
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("topnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="aos/js/css3-animate-it.js"></script>
+<script src="jquery-3.3.1.js"></script>
+<script src="javascript.js"></script>
+<script src="jquery-ui"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
