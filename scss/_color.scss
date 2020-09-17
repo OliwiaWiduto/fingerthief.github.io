@@ -1,0 +1,31 @@
+/*COLORS*/
+$pri: #11083E;
+$sec: #FBF3FF;
+$ter: #e84c3b;
+$grey: #f1f1f1;
+$black: #3e3e3e;
+$pridark: #fff;
+
+.pri {
+    color: $pri;
+}
+
+.sec {
+    color: $sec;
+}
+
+.ter {
+    color: $ter;
+}
+
+.bg-pri {
+    background-color: $pri;
+}
+
+.bg-sec {
+    background-color: $sec !important;
+}
+
+.bg-ter {
+	background-color: $ter !important;
+}

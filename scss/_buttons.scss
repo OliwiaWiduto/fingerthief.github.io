@@ -1,0 +1,85 @@
+.btn {
+    &.btn-primary {
+        background: #fbf2ff;
+        color: #e84c3b !important;
+        border: none;
+        width: fit-content;
+
+        a {
+            color: #e84c3b !important;
+        }
+    }
+
+    &.btn-secondary {
+        display: inline-block;
+        padding: 0.5rem 2rem;
+        color: #fbf2ff !important;
+        background-color: #d84a41 !important;
+        border-radius: 0.3rem;
+        margin: 0 0.5rem;
+        border: none;
+
+        a {
+            color: #fbf2ff;
+        }
+
+        :hover {
+            transform: scale(1.2);
+            transition: all .2s ease-in-out;
+        }
+
+        p {
+            font-size: 26px;
+            font-weight: 400 !important;
+            margin-bottom: 0rem;
+
+            &:hover {
+                background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #E74C3C), color-stop(.35, #F39C12), color-stop(.45, #F1C40F), color-stop(.7, #76D7C4), color-stop(.85, #85C4FF), color-stop(1, #AE85FF)) !important;
+                background-image: gradient(linear, left top, right top, color-stop(0, #f22), color-stop(.15, #f2f), color-stop(.3, #22f), color-stop(.45, #2ff), color-stop(.6, #2f2), color-stop(.75, #2f2), color-stop(.9, #ff2), color-stop(1, #f22)) !important;
+                color: transparent !important;
+                -webkit-background-clip: text !important;
+            }
+        }
+    }
+
+    &.center {
+        width: fit-content;
+        width: -moz-min-content;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+
+button {
+    &:hover {
+        transform: scale(1.2)
+    }
+
+    &:focus {
+        outline: none !important;
+    }
+}
+
+#mail button,
+#mail2 button {
+    float: right;
+    cursor: pointer
+}
+
+#mail button,
+#more button {
+    border: none;
+    margin: 40px 20px 0 0;
+    text-align: center;
+    display: inline-block
+}
+
+
+#more button {
+    font-family: carlmarx;
+    background-color: #D2C5D8;
+    padding: 10px 28px;
+    border-radius: 4px;
+    font-size: 20px
+}
