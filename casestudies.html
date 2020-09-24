@@ -12,340 +12,346 @@
 </head>
 
 <body>
-    <!--nav bar-->
-    <div class="topnav" id="topnav">
-        <a href="index.html"><b>FINGER THIEF</b></a>
-        <div class="menuright">
-            <a href="about.html">ABOUT</a>
-            <a href="casestudies.html" class="active"><span class="rainbow">CASE STUDIES</span></a>
-            <a href="contact.html">CONTACT</a><a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">FINGERTHIEF</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">ABOUT<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="casestudies.html"><span class="rainbow">CASE STUDIES</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
         </div>
-    </div>
-    <h1>CASE STUDIES</h1>
-    <p class="para">Building all things functional and beautiful.</p>
-    <!-- Buttons -->
-    <div class="casestudies-boxes">
-        <button class="boxes" style="background-color: #F1C40F;" data-toggle="modal" data-target="#placement">
-            <img src="images/icons/placement.png">
-            <p>PLACEMENT REPORT</p>
-        </button>
-        <button class="boxes" style="background-color: #76D6C4;" data-toggle="modal" data-target="#mala">
-            <img src="images/icons/mala.png">
-            <p>MALA</p>
-        </button>
-        <button class="boxes" style="background-color: #ff6499;" data-toggle="modal" data-target="#sherlock">
-            <img src="images/icons/sherlock.png">
-            <p>SHERLOCK BY TRAIN</p>
-        </button>
-        <button class="boxes" style="background-color: #ff6c6c;" data-toggle="modal" data-target="#girlements">
-            <img src="images/icons/girlements.png">
-            <p>GIRLEMENTS</p>
-        </button>
-        <button class="boxes" style="background-color: #f39c12;" data-toggle="modal" data-target="#comingsoon">
-            <img src="images/icons/codesseum.png">
-            <p>CODESSEUM</p>
-        </button>
-        <button class="boxes" style="background-color: #85C4FF;" data-toggle="modal" data-target="#ventrilocat">
-            <img src="images/icons/ventrilocat.png">
-            <p>VENTRILOCAT</p>
-        </button>
-        <button class="boxes" style="background-color: #AD85FF;" data-toggle="modal" data-target="#poolstory">
-            <img src="images/icons/pool.png">
-            <p>POOL STORY</p>
-        </button>
-        <button class="boxes" style="background-color: #a6d86b;" data-toggle="modal" data-target="#comingsoon">
-            <img src="images/icons/sustainable.png">
-            <p>GARDENSHARE</p>
-        </button>
-        <button class="boxes" style="background-color: #d164de;" data-toggle="modal" data-target="#comingsoon">
-            <img src="images/icons/witch.png">
-            <p>WITCH MUM</p>
-        </button>
-    </div>
-    <!-- Placement Report -->
-    <div class="modal fade" id="placement" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title">Placement Report</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img class="modal-banner-image" src="images/placement/placement.png" alt="Placement Report Website Image" style="width:100%">
-                    <div class="case-study-thirds">
-                        <div class="col-12 col-md-4">
-                            <h4>Details</h4>
-                            <p><b>Brief /</b> Placement Report</p>
-                            <p><b>Role /</b> Illustration, Design & Development </p>
-                            <p><b>Software /</b> Procreate, Jekyll</p>
-                            <p><b>Languages /</b> YML, MD, CSS, HTML, JS</p>
-                        </div>
-                        <div class="col-12 col-md-8">
-                            <h4>Project Summary</h4>
-                            <p>
-                                A summary of my year at Synergy Learning where I worked as a UX Developer.
-                                <br><br>
-                                I challenged myself to do one drawing a day for 3 weeks, creating this flipbook.
-                                <br><br>
-                                This project had far too many moving parts to be built out as a static site, so I opted to use Jekyll.
-                                <br><br>
-                                Brief completed within 1 month.
-                            </p>
-                        </div>
+    </nav>
+    <div class="main">
+        <h1>CASE STUDIES</h1>
+        <p class="para">Building all things functional and beautiful.</p>
+        <!-- Buttons -->
+        <div class="casestudies-boxes">
+            <button class="boxes mb-1 mb-md-2" style="background-color: #F1C40F;" data-toggle="modal" data-target="#placement">
+                <img src="images/icons/placement.png">
+                <p>PLACEMENT REPORT</p>
+            </button>
+            <button class="boxes mb-1 mb-md-2" style="background-color: #76D6C4;" data-toggle="modal" data-target="#mala">
+                <img src="images/icons/mala.png">
+                <p>MALA</p>
+            </button>
+            <button class="boxes mb-1 mb-md-2" style="background-color: #ff6499;" data-toggle="modal" data-target="#sherlock">
+                <img src="images/icons/sherlock.png">
+                <p>SHERLOCK BY TRAIN</p>
+            </button>
+            <button class="boxes mb-1 mb-md-2" style="background-color: #ff6c6c;" data-toggle="modal" data-target="#girlements">
+                <img src="images/icons/girlements.png">
+                <p>GIRLEMENTS</p>
+            </button>
+            <button class="boxes mb-1 mb-md-2" style="background-color: #f39c12;" data-toggle="modal" data-target="#comingsoon">
+                <img src="images/icons/codesseum.png">
+                <p>CODESSEUM</p>
+            </button>
+            <button class="boxes mb-1 mb-md-2" style="background-color: #85C4FF;" data-toggle="modal" data-target="#ventrilocat">
+                <img src="images/icons/ventrilocat.png">
+                <p>VENTRILOCAT</p>
+            </button>
+            <button class="boxes mb-1 mb-md-2" style="background-color: #AD85FF;" data-toggle="modal" data-target="#poolstory">
+                <img src="images/icons/pool.png">
+                <p>POOL STORY</p>
+            </button>
+            <button class="boxes mb-1 mb-md-2" style="background-color: #a6d86b;" data-toggle="modal" data-target="#comingsoon">
+                <img src="images/icons/sustainable.png">
+                <p>GARDENSHARE</p>
+            </button>
+            <button class="boxes mb-1 mb-md-2" style="background-color: #d164de;" data-toggle="modal" data-target="#comingsoon">
+                <img src="images/icons/witch.png">
+                <p>WITCH MUM</p>
+            </button>
+        </div>
+        <!-- Placement Report -->
+        <div class="modal fade" id="placement" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Placement Report</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
-                    <div class="btn btn-secondary center">
-                        <a href="https://oliwiawiduto.github.io/placementreport/" target="_blank">
-                            <p>View it</p>
-                        </a>
-                    </div>
-                    <!-- <button class="btn btn-secondary center">
+                    <div class="modal-body">
+                        <img class="modal-banner-image" src="images/placement/placement.png" alt="Placement Report Website Image" style="width:100%">
+                        <div class="case-study-thirds row">
+                            <div class="col-12 col-md-4">
+                                <h4>Details</h4>
+                                <p><b>Brief /</b> Placement Report</p>
+                                <p><b>Role /</b> Illustration, Design & Development </p>
+                                <p><b>Software /</b> Procreate, Jekyll</p>
+                                <p><b>Languages /</b> YML, MD, CSS, HTML, JS</p>
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <h4>Project Summary</h4>
+                                <p>
+                                    A summary of my year at Synergy Learning where I worked as a UX Developer.
+                                    <br><br>
+                                    I challenged myself to do one drawing a day for 3 weeks, creating this flipbook.
+                                    <br><br>
+                                    This project had far too many moving parts to be built out as a static site, so I opted to use Jekyll.
+                                    <br><br>
+                                    Brief completed within 1 month.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="btn btn-secondary center">
+                            <a href="https://oliwiawiduto.github.io/placementreport/" target="_blank">
+                                <p>View it</p>
+                            </a>
+                        </div>
+                        <!-- <button class="btn btn-secondary center">
                         <a href="https://oliwiawiduto.github.io/placementreport/"><p>View it</p></a>
                     </button> -->
-                </div>
-                <div class="modal-footer">
+                    </div>
+                    <div class="modal-footer">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Mala -->
-    <div class="modal fade" id="mala" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title">Mala</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img class="modal-banner-image" src="images/mala/mala.png" alt="Mala Logo" style="width:100%">
-                    <div class="case-study-thirds">
-                        <div class="col-12 col-md-4">
-                            <h4>Details</h4>
-                            <p><b>Brief /</b> E-Commerce</p>
-                            <p><b>Role /</b> Design & Development </p>
-                            <p><b>Software /</b> Shopify</p>
-                            <p><b>Languages /</b> Liquid, CSS, HTML</p>
-                        </div>
-                        <div class="col-12 col-md-8">
-                            <h4>Project Summary</h4>
-                            <p>Mala are a Belfast based sustainable bag company who asked me design and develop an e-commerce solution.
-                                <br><br>
-                                Together we decided Shopify would be the best fit for Mala, owing to the system's simplicity and integration with social media - a key part of their business.
-                                <br><br>
-                                To help Mala, I created a number of custom sections as well as developing additional functionality for existing ones.
-                                <br><br>
-                                Brief completed within 2 months.
-                            </p>
-                        </div>
+        <!-- Mala -->
+        <div class="modal fade" id="mala" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Mala</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
-                    <div class="btn btn-secondary center">
-                        <a href="https://malabelfast.com" target="_blank">
-                            <p>View it</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Sherlock -->
-    <div class="modal fade" id="sherlock" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title">Sherlock By Train</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img class="modal-banner-image" src="images/sherlock.png" alt="Mala Logo" style="width:100%">
-                    <div class="case-study-thirds">
-                        <div class="col-12 col-md-4">
-                            <h4>Details</h4>
-                            <p><b>Brief /</b> Storytelling</p>
-                            <p><b>Role /</b> Illustration, Design & Development </p>
-                            <p><b>Software /</b> Adobe Illustrator</p>
-                            <p><b>Languages /</b> CSS, HTML, JS</p>
+                    <div class="modal-body">
+                        <img class="modal-banner-image" src="images/mala/mala.png" alt="Mala Logo" style="width:100%">
+                        <div class="case-study-thirds row">
+                            <div class="col-12 col-md-4">
+                                <h4>Details</h4>
+                                <p><b>Brief /</b> E-Commerce</p>
+                                <p><b>Role /</b> Design & Development </p>
+                                <p><b>Software /</b> Shopify</p>
+                                <p><b>Languages /</b> Liquid, CSS, HTML</p>
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <h4>Project Summary</h4>
+                                <p>Mala are a Belfast based sustainable bag company who asked me design and develop an e-commerce solution.
+                                    <br><br>
+                                    Together we decided Shopify would be the best fit for Mala, owing to the system's simplicity and integration with social media - a key part of their business.
+                                    <br><br>
+                                    To help Mala, I created a number of custom sections as well as developing additional functionality for existing ones.
+                                    <br><br>
+                                    Brief completed within 2 months.
+                                </p>
+                            </div>
                         </div>
-                        <div class="col-12 col-md-8">
-                            <h4>Project Summary</h4>
-                            <p>In this module I was asked to explore online storytelling, using the Sherlock Holmes franchise as subject matter.
-                                <br><br>
-                                Abstracting from a navbar, the iconic London Underground serves as a gameified wayfinding system for the application. There is an emphasis on moving image and short bursts of text as a more modern approach to presenting information online.
-                                <br><br>
-                                Brief completed within 3 months.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="btn btn-secondary center">
-                        <a href="https://oliwiawiduto.github.io/SBT/" target="_blank">
-                            <p>View it</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Girlements-->
-    <div class="modal fade" id="girlements" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title">Girlements</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img class="modal-banner-image" src="images/girlements.png" alt="Mala Logo" style="width:100%">
-                    <div class="case-study-thirds">
-                        <div class="col-12 col-md-4">
-                            <h4>Details</h4>
-                            <p><b>Brief /</b> Data Visualisation</p>
-                            <p><b>Role /</b> Illustration, Design & Development</p>
-                            <p><b>Software /</b> Photoshop</p>
-                            <p><b>Languages /</b> CSS, HTML</p>
-                        </div>
-                        <div class="col-12 col-md-8">
-                            <h4>Project Summary</h4>
-                            <p>In this project I was tasked with visualising data relating to the periodic table, aimed at a target audience of teenagers.
-                                <br><br>
-                                I decided to personify the noble gases as a memory and storytelling aid, and further streamline the target audience to women in STEM by creating badass female characters.
-                                <br><br>
-                                Brief completed within 1 month.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="btn btn-secondary center">
-                        <a href="https://oliwiawiduto.github.io/girlements" target="_blank">
-                            <p>View it</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Ventrilocat -->
-    <div class="modal fade" id="ventrilocat" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title">Ventrilocat</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img class="modal-banner-image" src="images/ventrilocat/ventrilocat.jpg" alt="Mala Logo" style="width:100%">
-                    <div class="case-study-thirds">
-                        <div class="col-12 col-md-4">
-                            <h4>Details</h4>
-                            <p><b>Brief /</b> Playful Interaction</p>
-                            <p><b>Role /</b> Project Lead, Concept Design, Development, Filming, Editing</p>
-                            <p><b>Software /</b> Arduino, After Effects</p>
-                            <p><b>Languages /</b> Arduino</p>
-                        </div>
-                        <div class="col-12 col-md-8">
-                            <h4>Project Summary</h4>
-                            <p>Along with my research partner, Bianka, I was asked find a gap in the market for an interactive gadget which we would physically build and programme using Arduino.
-                                <br><br>
-                                Together we developed a sensor watch to help the user recognise and identify their feelings, in an attempt to demistify the complexity of living with mental health issues.
-                                <br><br>
-                                Brief completed within 4 months.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <div class="btn btn-secondary ">
-                            <a href="./images/ventrilocat/ventrilocat.pdf" target="_blank">
-                                <p>Read the Pitch</p>
-                            </a>
-                        </div>
-                        <div class="btn btn-secondary">
-                            <a href="https://vimeo.com/409952926" target="_blank">
-                                <p>Watch the Video</p>
+                        <div class="btn btn-secondary center">
+                            <a href="https://malabelfast.com" target="_blank">
+                                <p>View it</p>
                             </a>
                         </div>
                     </div>
-                </div>
-                <div class="modal-footer">
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-<!-- Pool-->
-    <div class="modal fade" id="poolstory" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title">Pool Story</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img class="modal-banner-image" src="images/poolstory/poolfront.png" alt="Mala Logo" style="width:100%">
-                    <div class="case-study-thirds">
-                        <div class="col-12 col-md-4">
-                            <h4>Details</h4>
-                            <p><b>Brief /</b> 2D Animated Short</p>
-                            <p><b>Role /</b> Illustration, Animation</p>
-                            <p><b>Software /</b> Photoshop, After Effects</p>
-                        </div>
-                        <div class="col-12 col-md-8">
-                            <h4>Project Summary</h4>
-                            <p>In this project I was tasked with visualising data relating to the periodic table, aimed at a target audience of teenagers.
-                                <br><br>
-                                I decided to personify the noble gases as a memory and storytelling aid, and further streamline the target audience to women in STEM by creating badass female characters.
-                                <br><br>
-                                Brief completed within 1 month.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="btn btn-secondary center">
-                        <a href="https://vimeo.com/265589954" target="_blank">
-                            <p>View it</p>
-                        </a>
+                    <div class="modal-footer">
                     </div>
                 </div>
-                <div class="modal-footer">
+            </div>
+        </div>
+        <!-- Sherlock -->
+        <div class="modal fade" id="sherlock" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Sherlock By Train</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="modal-banner-image" src="images/sherlock.png" alt="Mala Logo" style="width:100%">
+                        <div class="case-study-thirds row">
+                            <div class="col-12 col-md-4">
+                                <h4>Details</h4>
+                                <p><b>Brief /</b> Storytelling</p>
+                                <p><b>Role /</b> Illustration, Design & Development </p>
+                                <p><b>Software /</b> Adobe Illustrator</p>
+                                <p><b>Languages /</b> CSS, HTML, JS</p>
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <h4>Project Summary</h4>
+                                <p>In this module I was asked to explore online storytelling, using the Sherlock Holmes franchise as subject matter.
+                                    <br><br>
+                                    Abstracting from a navbar, the iconic London Underground serves as a gameified wayfinding system for the application. There is an emphasis on moving image and short bursts of text as a more modern approach to presenting information online.
+                                    <br><br>
+                                    Brief completed within 3 months.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="btn btn-secondary center">
+                            <a href="https://oliwiawiduto.github.io/SBT/" target="_blank">
+                                <p>View it</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Girlements-->
+        <div class="modal fade" id="girlements" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Girlements</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="modal-banner-image" src="images/girlements.png" alt="Mala Logo" style="width:100%">
+                        <div class="case-study-thirds row">
+                            <div class="col-12 col-md-4">
+                                <h4>Details</h4>
+                                <p><b>Brief /</b> Data Visualisation</p>
+                                <p><b>Role /</b> Illustration, Design & Development</p>
+                                <p><b>Software /</b> Photoshop</p>
+                                <p><b>Languages /</b> CSS, HTML</p>
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <h4>Project Summary</h4>
+                                <p>In this project I was tasked with visualising data relating to the periodic table, aimed at a target audience of teenagers.
+                                    <br><br>
+                                    I decided to personify the noble gases as a memory and storytelling aid, and further streamline the target audience to women in STEM by creating badass female characters.
+                                    <br><br>
+                                    Brief completed within 1 month.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="btn btn-secondary center">
+                            <a href="https://oliwiawiduto.github.io/girlements" target="_blank">
+                                <p>View it</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Ventrilocat -->
+        <div class="modal fade" id="ventrilocat" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Ventrilocat</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="modal-banner-image" src="images/ventrilocat/ventrilocat.jpg" alt="Mala Logo" style="width:100%">
+                        <div class="case-study-thirds row">
+                            <div class="col-12 col-md-4">
+                                <h4>Details</h4>
+                                <p><b>Brief /</b> Playful Interaction</p>
+                                <p><b>Role /</b> Project Lead, Concept Design, Development, Filming, Editing</p>
+                                <p><b>Software /</b> Arduino, After Effects</p>
+                                <p><b>Languages /</b> Arduino</p>
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <h4>Project Summary</h4>
+                                <p>Along with my research partner, Bianka, I was asked find a gap in the market for an interactive gadget which we would physically build and programme using Arduino.
+                                    <br><br>
+                                    Together we developed a sensor watch to help the user recognise and identify their feelings, in an attempt to demistify the complexity of living with mental health issues.
+                                    <br><br>
+                                    Brief completed within 4 months.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div class="btn btn-secondary ">
+                                <a href="./images/ventrilocat/ventrilocat.pdf" target="_blank">
+                                    <p>Read the Pitch</p>
+                                </a>
+                            </div>
+                            <div class="btn btn-secondary">
+                                <a href="https://vimeo.com/409952926" target="_blank">
+                                    <p>Watch the Video</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pool-->
+        <div class="modal fade" id="poolstory" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Pool Story</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="modal-banner-image" src="images/poolstory/poolfront.png" alt="Mala Logo" style="width:100%">
+                        <div class="case-study-thirds row">
+                            <div class="col-12 col-md-4">
+                                <h4>Details</h4>
+                                <p><b>Brief /</b> 2D Animated Short</p>
+                                <p><b>Role /</b> Illustration, Animation</p>
+                                <p><b>Software /</b> Photoshop, After Effects</p>
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <h4>Project Summary</h4>
+                                <p>In this project I was tasked with visualising data relating to the periodic table, aimed at a target audience of teenagers.
+                                    <br><br>
+                                    I decided to personify the noble gases as a memory and storytelling aid, and further streamline the target audience to women in STEM by creating badass female characters.
+                                    <br><br>
+                                    Brief completed within 1 month.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="btn btn-secondary center">
+                            <a href="https://vimeo.com/265589954" target="_blank">
+                                <p>View it</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Coming Soon-->
+        <div class="modal fade" id="comingsoon" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Coming Soon!</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-<!-- Coming Soon-->
-    <div class="modal fade" id="comingsoon" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title">Coming Soon!</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-footer">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="CScontainer">
+    <!--    <div class="CScontainer">
         <span class="close-background" id="close-modals" onClick=(closeModal())></span>
-        <!-- Modals -->
+        
         <div class="modal" id="modal1">
             <div>
                 <video controls autoplay>
@@ -641,41 +647,38 @@
             </div>
             <span class="close" onClick=(closeModal())>&times;</span>
         </div>
-    </div>
-    <div class="footer">
-        <div class="grid-container">
-            <div class="grid-item">
-                <p>
-                    hi@fingerthief.com <br></br>
-                    07936536558<br></br>
-                    ©Whipped up by a highly caffeinated Oliwia Widuto in 2018.
-                </p>
-            </div>
-            <div class="grid-item" style="justify-self: end; padding-right: 1.5em;">
-                <ul>
-                    <li><a href="https://twitter.com/Strawdairy">
-                            <img alt="twitter.com/strawdairy" src="images/icons/social/twitter.png">
-                    </li>
-                    <li><a href="https://www.instagram.com/strawdairy">
-                            <img alt="www.instagram.com/strawdairy" src="images/icons/social/IG.png"></td>
-                    </li>
-                    <li><a href="https://oliwiawidutoresearch.tumblr.com">
-                            <img alt="oliwiawidutoresearch.tumblr.com" src="images/icons/social/tumblr.png">
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <script>
-    function myFunction() {
-        var x = document.getElementById("topnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-    </script>
+    </div> -->
+    <footer>
+        <p>
+            © Oliwia Widuto 2020
+        </p>
+        <ul>
+            <li>
+                <img src="images/icons/social/twitter.png" alt="">
+            </li>
+            <li>
+                <img src="images/icons/social/instagram.png" alt="">
+            </li>
+            <li>
+                <img src="images/icons/social/tumblr.png" alt="">
+            </li>
+            <li>
+                <img src="images/icons/social/dribbble.png" alt="">
+            </li>
+            <li>
+             <img class="ml-2" src="images/icons/social/github.png" alt="">
+         </li>
+            <li>
+                <img class="ml-2" src="images/icons/social/behance.png" alt="">
+            </li>
+            <li>
+                <img class="ml-2" src="images/icons/social/mail.png" alt="">
+            </li>
+            <li>
+                <img class="ml-2" src="images/icons/social/fiverr.png" alt="">
+            </li>
+        </ul>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="aos/js/css3-animate-it.js"></script>
     <script src="jquery-3.3.1.js"></script>

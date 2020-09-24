@@ -1,0 +1,148 @@
+button.boxes
+
+
+
+
+
+
+--- .boxes,
+.para {
+    text-align: center
+}
+
+
+.casestudies-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20vw 6rem;
+    @include phone {
+        padding: 0;
+    }
+
+    .boxes {
+        background-color: red;
+        height: 17vw;
+        width: 17vw;
+        min-width: 200px;
+        min-height: 200px;
+        border-radius: 10px;
+        border: none;
+        margin: 1vw;
+        color: #fff;
+        font-weight: 700;
+        padding-bottom: 1em;
+        padding-top: .3em;
+        transition: transform .2s;
+
+        @include phone {
+            height: 25vw;
+            width: 25vw;
+            min-width: 25vw;
+            min-height: 25vw;
+        }
+
+        img {
+            height: 8vw;
+            min-height: 80px;
+            padding-bottom: 1rem;
+            @include phone {
+                padding: 1rem;
+            }
+        }
+
+        p {
+            font-family: carlmarx;
+            font-size: 26px;
+            margin: 0;
+            line-height: 20px;
+            @include phone {
+                display: none;
+            }
+        }
+
+        &:hover,
+        &:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+            transform: scale(1.1);
+        }
+    }
+}
+
+
+
+.case-study-thirds {
+    font-family: vag-rundschrift-d, sans-serif;
+    font-weight: 300;
+    display: flex;
+    align-items: stretch;
+    padding: 2rem 0;
+
+    p {
+        font-size: 16px;
+    }
+
+    b {
+        letter-spacing: 1px
+    }
+
+    h4 {
+        font-size: 24px;
+        font-weight: 700;
+        padding: 10px 0;
+        margin: 0;
+        letter-spacing: 2px
+    }
+
+    .col-12.col-md-4 {
+        background: #261b54;
+        border-radius: 5px;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .col-12.col-md-8 {
+        padding: 0.5rem 1.5rem;
+    }
+}
+
+
+
+
+
+/*.boxes button.boxes:hover {
+    cursor: zoom-in;
+}
+
+.third-para H4 {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 0;
+    margin: 0;
+    letter-spacing: 2px
+}
+
+.third-para {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    color: #fff;
+    width: 66%;
+    padding: 20px 0 20px 90px
+}
+
+.case-study-thirds-image,
+.row {
+    display: flex;
+    margin: 30px
+}
+
+.case-study-thirds-image {
+    align-items: stretch
+}
+
+.case-study-thirds-image>div {
+    padding: 10px;
+    width: 100px;
+    text-align: left
+}*/

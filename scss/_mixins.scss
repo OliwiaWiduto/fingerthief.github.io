@@ -1,0 +1,25 @@
+/*MEDIA QUERIES*/
+
+@mixin phone {
+  @media (max-width: 599px) { @content; }
+}
+@mixin tablet {
+  @media (min-width: 768px) { @content; }
+}
+
+@mixin laptop {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin desktop {
+  @media (min-width: 1800px) { @content; }
+}
+
+@mixin title ($content){
+    content: $content;
+    top: 105%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 200px;
+    text-align: center;
+}

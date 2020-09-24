@@ -2,10 +2,7 @@
     font-family: vag-rundschrift-d, calibri !important;
 }
 
-.boxes:hover,
-button:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19)
-}
+
 
 
 
@@ -29,7 +26,7 @@ h2 {
 }
 
 a:hover {
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
 .topnav {
@@ -132,10 +129,7 @@ h3 {
     margin: 50px 90px 10px
 }
 
-.boxes,
-.para {
-    text-align: center
-}
+
 
 p {
     font-size: 18px
@@ -146,51 +140,7 @@ p {
     margin: 0 10% 1.7em;
 }
 
-.boxes {
-    background-color: red;
-    height: 17vw;
-    width: 17vw;
-    min-width: 200px;
-    min-height: 200px;
-    border-radius: 10px;
-    border: none;
-    margin: 1vw;
-    color: #fff;
-    font-weight: 700;
-    padding-bottom: 1em;
-    padding-top: .3em;
-    transition: transform .2s
-}
 
-.boxes:hover {
-    transform: scale(1.1)
-}
-
-.boxes img {
-    height: 8vw;
-    min-height: 80px;
-    padding-bottom: 1rem;
-}
-
-.boxes p {
-    font-family: carlmarx;
-    font-size: 26px;
-    margin: 0;
-    line-height: 20px
-}
-
-button.boxes:hover {
-    cursor: zoom-in;
-}
-
-.casestudies-boxes {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: none;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20vw;
-}
 
 video {
     width: 100% !important;
@@ -201,81 +151,7 @@ video {
     width: 100%
 }
 
-.case-study-thirds {
-    font-family: vag-rundschrift-d, sans-serif;
-    font-weight: 300;
-    display: flex;
-    align-items: stretch;
-    padding: 2rem 0;
-}
 
-.case-study-thirds>div {
-    color: #fff;
-    text-align: left
-}
-
-.modal-banner-image {
-    border-radius: 5px;
-}
-
-.case-study-thirds .col-12.col-md-4 {
-    background: #261b54;
-    border-radius: 5px;
-    padding: 0.5rem 1.5rem;
-}
-
-.case-study-thirds .col-12.col-md-8 {
-    padding: 0.5rem 1.5rem;
-}
-
-.case-study-thirds p {
-    font-size: 16px;
-}
-
-.third-para H4 {
-    font-size: 24px;
-    font-weight: 700;
-    padding: 10px 0;
-    margin: 0;
-    letter-spacing: 2px
-}
-
-b {
-    letter-spacing: 1px
-}
-
-.third-para {
-    font-size: 14px;
-    line-height: 20px;
-    text-align: left;
-    color: #fff;
-    width: 66%;
-    padding: 20px 0 20px 90px
-}
-
-.case-study-thirds H4 {
-    font-size: 24px;
-    font-weight: 700;
-    padding: 10px 0;
-    margin: 0;
-    letter-spacing: 2px
-}
-
-.case-study-thirds-image,
-.row {
-    display: flex;
-    margin: 30px
-}
-
-.case-study-thirds-image {
-    align-items: stretch
-}
-
-.case-study-thirds-image>div {
-    padding: 10px;
-    width: 100px;
-    text-align: left
-}
 
 .column {
     flex: 33.33%;
@@ -355,49 +231,15 @@ b {
     text-decoration: underline
 }
 
-.modal-content {
-	padding: 2rem;
-    background-color: #11083E !important;
-    color: white;
-}
 
-.modal-dialog.modal-dialog-centered {
-    width: 80vw;
-    max-width: 80vw;
-}
-
-.close span {
-    color: white;
-}
-
-.modal-header {
-    border: none !important;
-}
-
-.modal-footer {
-    border: none !important;
-}
-
-.modal-footer button {
-    background-color: #E74C3C;
-    border: none;
-    color: #FBF3FF;
-}
-
-.modal-footer button:hover {
-    background-color: #E74C3C;
-    border: none;
-    color: #FBF3FF;
-}
 
 .timeline {
     position: relative;
-    max-width: 1200px;
+    width: 85vw;
     margin: 0 auto;
-    z-index: -1
 }
 
-.container::after,
+.timeline-box::after,
 .timeline::after {
     content: '';
     position: absolute
@@ -412,16 +254,16 @@ b {
     margin-left: 0
 }
 
-.container {
+.timeline-box {
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
     width: 50%
 }
 
-.container::after {
-    width: 10px;
-    height: 10px;
+.timeline-box::after {
+    width: 18px;
+    height: 18px;
     right: -10px;
     background-color: #fff;
     border: 4px solid #11083E;
@@ -498,13 +340,13 @@ b {
         left: 31px
     }
 
-    .container {
+    .timeline-box {
         width: 100%;
         padding-left: 70px;
         padding-right: 25px
     }
 
-    .container::before {
+    .timeline-box::before {
         left: 60px;
         border: solid #fff;
         border-width: 10px 10px 10px 0;

@@ -1,0 +1,32 @@
+footer {
+    background-color: #211650;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 4rem;
+
+    img {
+        width: 2.5rem;
+        filter: grayscale(1);
+
+        @include phone {
+            filter: grayscale(0);
+            padding-bottom: 0.75rem;
+        }
+
+        &:hover {
+            filter: grayscale(0);
+        }
+    }
+
+    ul {
+        margin-bottom: 0rem;
+        padding: 0;
+        opacity: 0.8;
+
+        @include phone {
+            width: 50vw;
+            margin: 0 auto;
+        }
+    }
+}

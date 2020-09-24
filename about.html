@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="https://use.typekit.net/pol7rpz.css">
     <link rel="stylesheet" href="aos/css/animations.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
-    * {
+        * {
         box-sizing: border-box;
-    }
+        }
 
     body {
         background-image: url("images/handbg.png");
@@ -28,141 +29,175 @@
 </head>
 
 <body>
-    <!--nav bar-->
-    <div class="topnav" id="topnav">
-        <a href="index.html"><b>FINGER THIEF</b></a>
-        <div class="menuright">
-            <a href="about.html" class="active">ABOUT</a>
-            <a href="casestudies.html"><span class="rainbow">CASE STUDIES</span></a>
-            <a href="contact.html">CONTACT</a><a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">FINGERTHIEF</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">ABOUT<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="casestudies.html"><span class="rainbow">CASE STUDIES</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
         </div>
+    </nav>
+    <div class="main">
+        <h1>
+            <strong>
+                ABOUT
+            </strong>
+        </h1>
+        <p class="para">
+            My name is Oliwia Widuto. I'm a multidisciplinary designer.
+            <br>
+            Find out what that means below.
+        </p>
+        <div class="timeline">
+            <div class="timeline-box left">
+                <div class="content">
+                    <h2>2019</h2>
+                    <p>On Placement at Synergy Learning, working as a Theme Developer and Support Technician for LMS such as Moodle and Totara.
+                    </p>
+                    <a href="https://oliwiawiduto.github.io/placementreport/">Placement Report</a>
+                </div>
+            </div>
+            <div class="timeline-box right">
+                <div class="content">
+                    <h2>2018</h2>
+                    <p>Jump into 2nd Year of IxD at Belfast Arts University. Develop affection for eating artisan donuts while coding.</p>
+                </div>
+            </div>
+            <div class="animatedParent animateOnce">
+                <div class=" animated fadeInLeft box">
+                    <div class="timeline-box left">
+                        <div class="content">
+                            <h2>2018</h2>
+                            <p>Begin working at
+                                <a href="https://www.fabric-yard.co.uk">Fabric Yard</a> as Content Strategist.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="animatedParent animateOnce">
+                <div class=" animated fadeInRight box">
+                    <div class="timeline-box right">
+                        <div class="content">
+                            <h2>2017</h2>
+                            <p>Move to Edinburgh to study Interactive Media Digital at Napier University. Check out my Case Studies to see what I did.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="animatedParent animateOnce">
+                <div class=" animated fadeInLeft box">
+                    <div class="timeline-box left">
+                        <div class="content">
+                            <h2>2016</h2>
+                            <p>
+                                Start bespoke sewing business from home. As of 2018, I have started selling
+                                through Etsy & worked major projects for the likes of drag queens.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="animatedParent animateOnce">
+                <div class=" animated fadeInRight box">
+                    <div class="timeline-box right">
+                        <div class="content">
+                            <h2>2015</h2>
+                            <p>
+                                Commence my magical journey into Interaction Design through the Northern
+                                Regional College. Here I learned Graphic Design, Illustration, 3D Animation,
+                                and even hosted a live Facebook show.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="animatedParent animateOnce">
+                <div class=" animated fadeInLeft box">
+                    <div class="timeline-box left">
+                        <div class="content">
+                            <h2>2015</h2>
+                            <p>
+                                Come 2nd in Texaco Children's Art Competition. My painting re-told a story of my late Grandmother in Photoshop.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="animatedParent animateOnce">
+                <div class=" animated fadeInRight box">
+                    <div class="timeline-box right">
+                        <div class="content">
+                            <h2>2006</h2>
+                            <p>
+                                Move from Ostroda in Poland, to Coleraine on the breezy North Coast of Ireland.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="para">
+            <br><br>
+            Hungry for more?
+            <br>
+            There may be some easter eggs in the footer ;)
+        </p>
     </div>
-    <h1><strong>ABOUT</strong></h1>
-    <p class="para">My name is Oliwia Widuto. I'm a multidisciplinary designer.<br></br> Find out what that means below.</p>
-    <div class="timeline">
-        <div class="container left">
-            <div class="content">
-                <h2>2019</h2>
-                <p>On Placement at Synergy Learning, working as a Theme Developer and Support Technician for LMS such as Moodle and Totara.</p>
-                <div id="mail2">
-                    <button><a href="mailto:hi@fingerthief.com?Subject=Hello%20again" target="_top">
-                            Say Hi</a></button></div>
-                </p>
-            </div>
-        </div>
-        <div class="container right">
-            <div class="content">
-                <h2>2018</h2>
-                <p>Jump into 2nd Year of IxD at Belfast Arts University. Develop affection for eating artisan donuts while coding.</p>
-            </div>
-        </div>
-        <div class="animatedParent animateOnce">
-            <div class=" animated fadeInLeft box">
-                <div class="container left">
-                    <div class="content">
-                        <h2>2018</h2>
-                        <p>Begin working at <a href="https://www.fabric-yard.co.uk">Fabric Yard</a> as Content Strategist.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="animatedParent animateOnce">
-            <div class=" animated fadeInRight box">
-                <div class="container right">
-                    <div class="content">
-                        <h2>2017</h2>
-                        <p>Move to Edinburgh to study Interactive Media Digital at Napier University. Check out my Case Studies to see what I did.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="animatedParent animateOnce">
-            <div class=" animated fadeInLeft box">
-                <div class="container left">
-                    <div class="content">
-                        <h2>2016</h2>
-                        <p>Start bespoke sewing business from home. As of 2018, I have started selling
-                            through Etsy & worked major projects for the likes of drag queens.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="animatedParent animateOnce">
-            <div class=" animated fadeInRight box">
-                <div class="container right">
-                    <div class="content">
-                        <h2>2015</h2>
-                        <p>Commence my magical journey into Interaction Design through the Northern
-                            Regional College. Here I learned Graphic Design, Illustration, 3D Animation,
-                            and even hosted a live Facebook show.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="animatedParent animateOnce">
-            <div class=" animated fadeInLeft box">
-                <div class="container left">
-                    <div class="content">
-                        <h2>2015</h2>
-                        <p>Come 2nd in Texaco Children's Art Competition. My painting re-told a story of my late Grandmother in Photoshop.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="animatedParent animateOnce">
-            <div class=" animated fadeInRight box">
-                <div class="container right">
-                    <div class="content">
-                        <h2>2006</h2>
-                        <p>Move from Ostroda in Poland, to Coleraine on the breezy North Coast of Ireland.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <p class="para"><br></br><br></br><br></br>Hungry for more?<br></br> There may be some easter eggs in the footer ;)</p>
-    <div class="footer">
-        <div class="grid-container">
-            <div class="grid-item">
-                <p>
-                    hi@fingerthief.com <br></br>
-                    07936536558<br></br>
-                    ©Whipped up by a highly caffeinated Oliwia Widuto in 2018.
-                </p>
-            </div>
-            <div class="grid-item" style="justify-self: end; padding-right: 1.5em;">
-                <ul>
-                    <li><a href="https://twitter.com/Strawdairy">
-                            <img alt="twitter.com/strawdairy" src="images/icons/social/twitter.png">
-                    </li>
-                    <li><a href="https://www.instagram.com/strawdairy">
-                            <img alt="www.instagram.com/strawdairy" src="images/icons/social/IG.png"></td>
-                    </li>
-                    <li><a href="https://oliwiawidutoresearch.tumblr.com">
-                            <img alt="oliwiawidutoresearch.tumblr.com" src="images/icons/social/tumblr.png">
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <script>
-    function myFunction() {
-        var x = document.getElementById("topnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-    </script>
+    <footer>
+        <p>
+            © Oliwia Widuto 2020
+        </p>
+        <ul>
+            <li>
+                <img src="images/icons/social/twitter.png" alt="">
+            </li>
+            <li>
+                <img src="images/icons/social/instagram.png" alt="">
+            </li>
+            <li>
+                <img src="images/icons/social/tumblr.png" alt="">
+            </li>
+            <li>
+                <img src="images/icons/social/dribbble.png" alt="">
+            </li>
+            <li>
+                <img class="ml-2" src="images/icons/social/github.png" alt="">
+            </li>
+            <li>
+                <img class="ml-2" src="images/icons/social/behance.png" alt="">
+            </li>
+            <li>
+                <img class="ml-2" src="images/icons/social/mail.png" alt="">
+            </li>
+            <li>
+                <img class="ml-2" src="images/icons/social/fiverr.png" alt="">
+            </li>
+        </ul>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="aos/js/css3-animate-it.js"></script>
     <script src="jquery-3.3.1.js"></script>
     <script src="javascript.js"></script>
     <script src="jquery-ui"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
