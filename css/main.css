@@ -619,6 +619,11 @@ video {
   width: 85vw;
   margin: 0 auto;
 }
+.timeline a {
+  color: #d84a41;
+  font-weight: 400;
+  text-decoration: underline;
+}
 
 .timeline-box::after,
 .timeline::after {
@@ -628,6 +633,7 @@ video {
 
 .timeline::after {
   width: 2px;
+  border-radius: 10px;
   background-color: #fff;
   top: 0;
   bottom: 0;
@@ -700,10 +706,6 @@ video {
   background-color: #FBF3FF;
 }
 
-.content a {
-  color: #34213D;
-}
-
 .content a:hover {
   background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #E74C3C), color-stop(0.35, #F39C12), color-stop(0.45, #F1C40F), color-stop(0.7, #76D7C4), color-stop(0.85, #85C4FF), color-stop(1, #AE85FF));
   background-image: gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
@@ -736,7 +738,7 @@ video {
 
   .left::after,
 .right::after {
-    left: 15px;
+    left: 23px;
   }
 
   .right {
