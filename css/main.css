@@ -233,35 +233,6 @@ button.boxes --- .boxes,
   transform: scale(1.1);
 }
 
-.case-study-thirds {
-  font-family: vag-rundschrift-d, sans-serif;
-  font-weight: 300;
-  display: flex;
-  align-items: stretch;
-  padding: 2rem 0;
-}
-.case-study-thirds p {
-  font-size: 16px;
-}
-.case-study-thirds b {
-  letter-spacing: 1px;
-}
-.case-study-thirds h4 {
-  font-size: 24px;
-  font-weight: 700;
-  padding: 10px 0;
-  margin: 0;
-  letter-spacing: 2px;
-}
-.case-study-thirds .col-12.col-md-4 {
-  background: #261b54;
-  border-radius: 5px;
-  padding: 0.5rem 1.5rem;
-}
-.case-study-thirds .col-12.col-md-8 {
-  padding: 0.5rem 1.5rem;
-}
-
 /*.boxes button.boxes:hover {
     cursor: zoom-in;
 }
@@ -304,6 +275,12 @@ button.boxes --- .boxes,
   margin-left: auto;
   margin-right: auto;
 }
+@media (max-width: 599px) {
+  .modal-dialog.modal-dialog-centered {
+    width: 95vw;
+    max-width: 95vw;
+  }
+}
 .modal-dialog.modal-dialog-centered .close span {
   color: white;
 }
@@ -318,6 +295,11 @@ button.boxes --- .boxes,
   background-color: #11083E !important;
   color: white;
 }
+@media (max-width: 599px) {
+  .modal-dialog.modal-dialog-centered .modal-content {
+    padding: 0.5rem;
+  }
+}
 .modal-dialog.modal-dialog-centered .modal-footer {
   border: none !important;
 }
@@ -330,6 +312,48 @@ button.boxes --- .boxes,
   background-color: #E74C3C;
   border: none;
   color: #FBF3FF;
+}
+
+.case-study-thirds {
+  font-family: vag-rundschrift-d, sans-serif;
+  font-weight: 300;
+  display: flex;
+  align-items: stretch;
+  padding: 2rem 0;
+}
+@media (max-width: 599px) {
+  .case-study-thirds {
+    padding-bottom: 0;
+  }
+}
+.case-study-thirds p {
+  font-size: 16px;
+}
+.case-study-thirds b {
+  letter-spacing: 1px;
+}
+.case-study-thirds h4 {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 10px 0;
+  margin: 0;
+  letter-spacing: 2px;
+}
+.case-study-thirds .col-md-4 {
+  background: #261b54;
+  border-radius: 5px;
+  padding: 1rem 1rem;
+}
+.case-study-thirds .col-md-4.col-11 {
+  margin: 0 auto;
+}
+.case-study-thirds .col-12.col-md-8 {
+  padding: 0.5rem 1rem;
+}
+@media (max-width: 599px) {
+  .case-study-thirds .col-12.col-md-8 {
+    padding: 1rem;
+  }
 }
 
 footer {

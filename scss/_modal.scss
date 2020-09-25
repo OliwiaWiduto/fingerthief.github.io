@@ -4,6 +4,11 @@
     margin-left: auto;
     margin-right: auto;
 
+    @include phone {
+        width: 95vw;
+        max-width: 95vw;
+    }
+
 
     .close span {
         color: white;
@@ -21,6 +26,10 @@
         padding: 2rem;
         background-color: #11083E !important;
         color: white;
+
+        @include phone {
+            padding: 0.5rem;
+        }
     }
 
     .modal-footer {
@@ -36,6 +45,53 @@
                 border: none;
                 color: #FBF3FF;
             }
+        }
+    }
+}
+
+
+.case-study-thirds {
+    font-family: vag-rundschrift-d, sans-serif;
+    font-weight: 300;
+    display: flex;
+    align-items: stretch;
+    padding: 2rem 0;
+    @include phone {
+        padding-bottom: 0;
+
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    b {
+        letter-spacing: 1px
+    }
+
+    h4 {
+        font-size: 24px;
+        font-weight: 700;
+        padding: 10px 0;
+        margin: 0;
+        letter-spacing: 2px
+    }
+
+    .col-md-4 {
+        background: #261b54;
+        border-radius: 5px;
+        padding: 1rem 1rem;
+
+        &.col-11 {
+            margin: 0 auto;
+        }
+    }
+
+    .col-12.col-md-8 {
+        padding: 0.5rem 1rem;
+
+        @include phone {
+            padding: 1rem;
         }
     }
 }
