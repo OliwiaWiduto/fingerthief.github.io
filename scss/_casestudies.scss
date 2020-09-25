@@ -1,11 +1,4 @@
-button.boxes
-
-
-
-
-
-
---- .boxes,
+.boxes,
 .para {
     text-align: center
 }
@@ -45,11 +38,13 @@ button.boxes
 
         img {
             height: 8vw;
-            min-height: 80px;
+        
             padding-bottom: 1rem;
             @include phone {
+                height: 22vw;
                 padding: 1rem;
             }
+
         }
 
         p {
@@ -69,11 +64,6 @@ button.boxes
         }
     }
 }
-
-
-
-
-
 
 
 

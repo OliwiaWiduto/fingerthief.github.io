@@ -167,7 +167,7 @@ nav.navbar .topnav a:hover {
   background-color: #12083d;
 }
 
-button.boxes --- .boxes,
+.boxes,
 .para {
   text-align: center;
 }
@@ -209,11 +209,11 @@ button.boxes --- .boxes,
 }
 .casestudies-boxes .boxes img {
   height: 8vw;
-  min-height: 80px;
   padding-bottom: 1rem;
 }
 @media (max-width: 599px) {
   .casestudies-boxes .boxes img {
+    height: 22vw;
     padding: 1rem;
   }
 }
@@ -398,11 +398,16 @@ footer ul {
 
 h1 {
   text-align: center;
-  font-size: 7rem !important;
+  font-size: 5rem !important;
   font-family: carlmarx !important;
   padding: 0 60px;
   color: #FBF3FF !important;
   font-weight: 700 !important;
+}
+@media (max-width: 599px) {
+  h1 {
+    font-size: 5rem !important;
+  }
 }
 
 h2 {

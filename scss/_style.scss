@@ -12,11 +12,14 @@
 
 h1 {
     text-align: center;
-    font-size: 7rem !important;
+    font-size: 5rem !important;
     font-family: carlmarx !important;
     padding: 0 60px;
     color: #FBF3FF !important;
     font-weight: 700 !important;
+    @include phone {
+    font-size: 5rem !important
+    }
 }
 
 h2 {
