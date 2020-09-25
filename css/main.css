@@ -278,6 +278,15 @@ nav.navbar .topnav a:hover {
     width: 100px;
     text-align: left
 }*/
+.modal-open .modal {
+  overflow-y: hidden;
+}
+
+.modal-dialog.modal-dialog-centered .modal-content {
+  height: 98vh !important;
+  overflow: scroll;
+}
+
 .modal-dialog.modal-dialog-centered {
   width: 80vw;
   max-width: 80vw;
