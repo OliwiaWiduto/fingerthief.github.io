@@ -96,7 +96,11 @@
     }
 }
 
+* {
+    -webkit-overflow-scrolling: touch!important;
+}
+
 
 .modal-open .modal {
-    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch!important;
 }
