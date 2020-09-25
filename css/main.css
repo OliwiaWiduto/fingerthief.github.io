@@ -278,15 +278,6 @@ nav.navbar .topnav a:hover {
     width: 100px;
     text-align: left
 }*/
-.modal-open .modal {
-  overflow-y: hidden;
-}
-
-.modal-dialog.modal-dialog-centered .modal-content {
-  height: 98vh !important;
-  overflow: scroll;
-}
-
 .modal-dialog.modal-dialog-centered {
   width: 80vw;
   max-width: 80vw;
@@ -372,6 +363,14 @@ nav.navbar .topnav a:hover {
   .case-study-thirds .col-12.col-md-8 {
     padding: 1rem;
   }
+}
+
+* {
+  -webkit-overflow-scrolling: touch !important;
+}
+
+.modal-open .modal {
+  -webkit-overflow-scrolling: touch !important;
 }
 
 footer {

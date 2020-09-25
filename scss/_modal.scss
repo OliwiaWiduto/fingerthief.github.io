@@ -1,13 +1,3 @@
-.modal-open .modal {
-    overflow-y: hidden;
-}
-
-
-.modal-dialog.modal-dialog-centered .modal-content {
-    height: 98vh!important;
-    overflow: scroll;
-}
-
 .modal-dialog.modal-dialog-centered {
     width: 80vw;
     max-width: 80vw;
@@ -106,3 +96,11 @@
     }
 }
 
+* {
+    -webkit-overflow-scrolling: touch!important;
+}
+
+
+.modal-open .modal {
+    -webkit-overflow-scrolling: touch!important;
+}
