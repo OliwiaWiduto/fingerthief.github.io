@@ -80,3 +80,17 @@ nav {
         }
     }
 }
+
+
+
+
+
+/*.fadeInLeft{
+    opacity: 1!important;
+    transform: translateX(0)!important;
+    @include laptop {
+        opacity: 0;
+        transform: translateX(-400px)
+    }
+
+}*/

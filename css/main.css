@@ -167,6 +167,15 @@ nav.navbar .topnav a:hover {
   background-color: #12083d;
 }
 
+/*.fadeInLeft{
+    opacity: 1!important;
+    transform: translateX(0)!important;
+    @include laptop {
+        opacity: 0;
+        transform: translateX(-400px)
+    }
+
+}*/
 .boxes,
 .para {
   text-align: center;
@@ -354,6 +363,10 @@ nav.navbar .topnav a:hover {
   .case-study-thirds .col-12.col-md-8 {
     padding: 1rem;
   }
+}
+
+.modal-open .modal {
+  -webkit-overflow-scrolling: touch;
 }
 
 footer {

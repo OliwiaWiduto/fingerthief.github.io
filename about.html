@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/pol7rpz.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="aos/css/animations.css" type="text/css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
         * {
         box-sizing: border-box;
@@ -90,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <div class="animatedParent animateOnce">
+            <div data-aos="fade-right" data-aos-once="true">
                 <div class=" animated fadeInLeft box">
                     <div class="timeline-box left">
                         <div class="content">
@@ -102,64 +102,54 @@
                     </div>
                 </div>
             </div>
-            <div class="animatedParent animateOnce">
-                <div class=" animated fadeInRight box">
-                    <div class="timeline-box right">
-                        <div class="content">
-                            <h2>2017</h2>
-                            <p>Move to Edinburgh to study Interactive Media Digital at Napier University. Check out my Case Studies to see what I did.</p>
-                        </div>
+            <div data-aos="fade-left" data-aos-once="true">
+                <div class="timeline-box right">
+                    <div class="content">
+                        <h2>2017</h2>
+                        <p>Move to Edinburgh to study Interactive Media Digital at Napier University. Check out my Case Studies to see what I did.</p>
                     </div>
                 </div>
             </div>
-            <div class="animatedParent animateOnce">
-                <div class=" animated fadeInLeft box">
-                    <div class="timeline-box left">
-                        <div class="content">
-                            <h2>2016</h2>
-                            <p>
-                                Start bespoke sewing business from home. As of 2018, I have started selling
-                                through Etsy & worked major projects for the likes of drag queens.
-                            </p>
-                        </div>
+            <div data-aos="fade-right" data-aos-once="true">
+                <div class="timeline-box left">
+                    <div class="content">
+                        <h2>2016</h2>
+                        <p>
+                            Start bespoke sewing business from home. As of 2018, I have started selling
+                            through Etsy & worked major projects for the likes of drag queens.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="animatedParent animateOnce">
-                <div class=" animated fadeInRight box">
-                    <div class="timeline-box right">
-                        <div class="content">
-                            <h2>2015</h2>
-                            <p>
-                                Commence my magical journey into Interaction Design through the Northern
-                                Regional College. Here I learned Graphic Design, Illustration, 3D Animation,
-                                and even hosted a live Facebook show.
-                            </p>
-                        </div>
+            <div data-aos="fade-left" data-aos-once="true">
+                <div class="timeline-box right">
+                    <div class="content">
+                        <h2>2015</h2>
+                        <p>
+                            Commence my magical journey into Interaction Design through the Northern
+                            Regional College. Here I learned Graphic Design, Illustration, 3D Animation,
+                            and even hosted a live Facebook show.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="animatedParent animateOnce">
-                <div class=" animated fadeInLeft box">
-                    <div class="timeline-box left">
-                        <div class="content">
-                            <h2>2015</h2>
-                            <p>
-                                Come 2nd in Texaco Children's Art Competition. My painting re-told a story of my late Grandmother in Photoshop.
-                            </p>
-                        </div>
+            <div data-aos="fade-right" data-aos-once="true">
+                <div class="timeline-box left">
+                    <div class="content">
+                        <h2>2015</h2>
+                        <p>
+                            Come 2nd in Texaco Children's Art Competition. My painting re-told a story of my late Grandmother in Photoshop.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="animatedParent animateOnce">
-                <div class=" animated fadeInRight box">
-                    <div class="timeline-box right">
-                        <div class="content">
-                            <h2>2006</h2>
-                            <p>
-                                Move from Ostroda in Poland, to Coleraine on the breezy North Coast of Ireland.
-                            </p>
-                        </div>
+            <div data-aos="fade-left" data-aos-once="true">
+                <div class="timeline-box right">
+                    <div class="content">
+                        <h2>2006</h2>
+                        <p>
+                            Move from Ostroda in Poland, to Coleraine on the breezy North Coast of Ireland.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -202,16 +192,14 @@
             </li>
         </ul>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="aos/js/css3-animate-it.js"></script>
-    <script src="jquery-3.3.1.js"></script>
-    <script src="javascript.js"></script>
-    <script src="jquery-ui"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({ disable: 'mobile' });
+    </script>
+    <script src="jquery-ui"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
