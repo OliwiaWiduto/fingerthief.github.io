@@ -104,3 +104,13 @@
 .modal-open .modal {
     -webkit-overflow-scrolling: touch!important;
 }
+
+body.modal-open {
+    position: fixed;
+    top:    0;
+    right:  0;
+    bottom: 0;
+    left:   0;
+}
+
+.modal-body{ max-height:none; }
