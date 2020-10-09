@@ -22,12 +22,6 @@ h1 {
     }
 }
 
-h2 {
-    font-size: 3rem;
-    font-family: carlmarx;
-    font-weight: 700;
-}
-
 a:hover {
     text-decoration: none !important;
 }
@@ -98,49 +92,41 @@ a:hover {
     .topnav.responsive a.icon {
         position: absolute;
         right: 0;
-        top: 0
+        top: 0;
     }
 
     .topnav.responsive a {
         float: none;
         display: block;
-        text-align: left
+        text-align: left;
     }
 }
 
 .para,
 h3 {
     padding: 0;
-    color: #FBF3FF
+    color: #FBF3FF;
 }
 
 h2 {
-    font-size: 30px;
     margin-bottom: 0;
-    margin-top: 18px
+    font-family: carlmarx;
+    font-weight: 700;
 }
 
 h3,
 p {
     font-family: vag-rundschrift-d, sans-serif;
-    font-weight: 300
+    font-weight: 300;
 }
-
-h3 {
-    text-align: left;
-    font-size: 42px;
-    margin: 50px 90px 10px
-}
-
 
 
 p {
-    font-size: 18px
+    font-size: 1rem;
 }
 
 .para {
-    font-size: 24px;
-    margin: 0 10% 1.7em;
+    font-size: 1.5rem;
 }
 
 
@@ -410,9 +396,10 @@ video {
 }
 
 .contact {
-    width: 50%;
-    margin: 0 auto;
     text-align: center;
+    width: 60vw;
+    margin: 6rem auto 0;
+
 }
 
 
@@ -438,12 +425,8 @@ video {
 .contact p {
     font-weight: 300;
     line-height: 40px;
-    font-size: 26px;
+    font-size: 1.5rem;
     color: #FBF3FF
-}
-
-.contact p:hover {
-    color: #BDB3C7
 }
 
 .contactpara {

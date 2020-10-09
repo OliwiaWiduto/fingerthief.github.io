@@ -24,14 +24,26 @@
 }
 
 /*MEDIA QUERIES*/
+.btn.cta {
+  font-size: 1.5rem;
+}
 .btn.btn-primary {
-  background: #fbf2ff;
-  color: #e84c3b !important;
-  border: none;
+  background: transparent;
+  border: 2px solid white;
   width: fit-content;
+  border-radius: 0.3rem;
+  margin: 0 0.5rem;
+  padding: 0.5rem 2rem;
+}
+.btn.btn-primary:hover {
+  background: #fbf2ff;
+  border: 2px solid white;
+}
+.btn.btn-primary:hover a {
+  color: #12083f;
 }
 .btn.btn-primary a {
-  color: #e84c3b !important;
+  color: #fbf2ff;
 }
 .btn.btn-secondary {
   display: inline-block;
@@ -67,11 +79,50 @@
   display: block;
 }
 
+.pills ul {
+  padding: 0;
+}
+.pills ul li {
+  padding: 0.1rem 1rem 0.3rem;
+  border-radius: 100px;
+  color: white;
+  font-size: 1.25rem;
+  margin: 1rem 0.5rem;
+}
+.pills ul li:nth-child(3) {
+  background: #d164de;
+}
+.pills ul li:nth-child(2) {
+  background: #ff6499;
+}
+.pills ul li:nth-child(4) {
+  background: #85C4FF;
+}
+.pills ul li:nth-child(1) {
+  background: #76D6C4;
+}
+.pills ul li:nth-child(5) {
+  background: #f39c12;
+}
+.pills ul li:nth-child(6) {
+  background: #AD85FF;
+}
+.pills ul li:nth-child(7) {
+  background: #a6d86b;
+}
+.pills ul li:nth-child(8) {
+  background: #F1C40F;
+}
+
 button:hover {
   transform: scale(1.2);
 }
 button:focus {
   outline: none !important;
+}
+
+.cta-container {
+  margin-top: 7rem;
 }
 
 #mail button,
@@ -102,7 +153,7 @@ body {
   font-family: vag-rundschrift-d, sans-serif !important;
   position: relative;
   /*padding-bottom: 6rem;*/
-  min-height: 100%;
+  /*    min-height: 100%;*/
   z-index: -50;
   max-width: 100vw;
   overflow-x: hidden;
@@ -165,6 +216,10 @@ nav.navbar a.navbar-brand {
 nav.navbar .active,
 nav.navbar .topnav a:hover {
   background-color: #12083d;
+}
+
+.home-container {
+  margin-top: 35vh;
 }
 
 /*.fadeInLeft{
@@ -439,12 +494,6 @@ h1 {
   }
 }
 
-h2 {
-  font-size: 3rem;
-  font-family: carlmarx;
-  font-weight: 700;
-}
-
 a:hover {
   text-decoration: none !important;
 }
@@ -530,9 +579,9 @@ h3 {
 }
 
 h2 {
-  font-size: 30px;
   margin-bottom: 0;
-  margin-top: 18px;
+  font-family: carlmarx;
+  font-weight: 700;
 }
 
 h3,
@@ -541,19 +590,12 @@ p {
   font-weight: 300;
 }
 
-h3 {
-  text-align: left;
-  font-size: 42px;
-  margin: 50px 90px 10px;
-}
-
 p {
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 .para {
-  font-size: 24px;
-  margin: 0 10% 1.7em;
+  font-size: 1.5rem;
 }
 
 video {
@@ -815,9 +857,9 @@ video {
 }
 
 .contact {
-  width: 50%;
-  margin: 0 auto;
   text-align: center;
+  width: 60vw;
+  margin: 6rem auto 0;
 }
 
 .contact img {
@@ -842,12 +884,8 @@ video {
 .contact p {
   font-weight: 300;
   line-height: 40px;
-  font-size: 26px;
+  font-size: 1.5rem;
   color: #FBF3FF;
-}
-
-.contact p:hover {
-  color: #BDB3C7;
 }
 
 .contactpara {

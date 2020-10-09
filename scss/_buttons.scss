@@ -1,12 +1,27 @@
 .btn {
+    &.cta {
+        font-size: 1.5rem;
+    }
+
     &.btn-primary {
-        background: #fbf2ff;
-        color: #e84c3b !important;
-        border: none;
+        background: transparent;
+        border: 2px solid white;
         width: fit-content;
+        border-radius: 0.3rem;
+        margin: 0 0.5rem;
+        padding: 0.5rem 2rem;
+
+        &:hover {
+
+            background: #fbf2ff;
+            border: 2px solid white;
+            a {
+                color: #12083f;
+            }
+        }
 
         a {
-            color: #e84c3b !important;
+            color: #fbf2ff;
         }
     }
 
@@ -50,6 +65,53 @@
     }
 }
 
+.pills ul {
+    padding: 0;
+
+    li {
+        padding: 0.1rem 1rem 0.3rem;
+        border-radius: 100px;
+        color: white;
+        font-size: 1.25rem;
+        margin: 1rem 0.5rem;
+
+        &:nth-child(3) {
+            background: #d164de;
+            ;
+        }
+
+        &:nth-child(2) {
+            background: #ff6499;
+        }
+
+        &:nth-child(4) {
+            background: #85C4FF;
+        }
+
+        &:nth-child(1) {
+            background: #76D6C4;
+        }
+
+        &:nth-child(5) {
+            background: #f39c12;
+        }
+
+        &:nth-child(6) {
+            background: #AD85FF;
+        }
+
+        &:nth-child(7) {
+            background: #a6d86b;
+        }
+
+        &:nth-child(8) {
+            background: #F1C40F;
+        }
+    }
+}
+
+
+
 
 button {
     &:hover {
@@ -59,6 +121,10 @@ button {
     &:focus {
         outline: none !important;
     }
+}
+
+.cta-container {
+    margin-top: 7rem;
 }
 
 #mail button,
