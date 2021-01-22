@@ -8,7 +8,7 @@
         border: 2px solid white;
         width: fit-content;
         border-radius: 0.3rem;
-        margin: 0 0.5rem;
+        /*margin: 0 0.5rem;*/
         padding: 0.5rem 2rem;
 
         &:hover {
@@ -22,6 +22,7 @@
 
         a {
             color: #fbf2ff;
+            white-space: normal;
         }
     }
 
@@ -31,11 +32,12 @@
         color: #fbf2ff !important;
         background-color: #d84a41 !important;
         border-radius: 0.3rem;
-        margin: 0 0.5rem;
+        /*margin: 0 0.5rem;*/
         border: none;
 
         a {
             color: #fbf2ff;
+            white-space: normal;
         }
 
         :hover {
