@@ -25,7 +25,7 @@
 
 /*MEDIA QUERIES*/
 .btn.cta {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .btn.btn-primary {
   background: transparent;
@@ -59,20 +59,20 @@
   color: #fbf2ff;
   white-space: normal;
 }
-.btn.btn-secondary :hover {
-  transform: scale(1.2);
-  transition: all 0.2s ease-in-out;
-}
-.btn.btn-secondary p {
-  font-size: 26px;
+.btn.btn-secondary a p {
+  font-size: 1.2rem !important;
   font-weight: 400 !important;
   margin-bottom: 0rem;
 }
-.btn.btn-secondary p:hover {
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #E74C3C), color-stop(0.35, #F39C12), color-stop(0.45, #F1C40F), color-stop(0.7, #76D7C4), color-stop(0.85, #85C4FF), color-stop(1, #AE85FF)) !important;
+.btn.btn-secondary a p:hover {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #ff5990), color-stop(0.35, #F39C12), color-stop(0.45, #F1C40F), color-stop(0.7, #76D7C4), color-stop(0.85, #85C4FF), color-stop(1, #AE85FF)) !important;
   background-image: gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22)) !important;
   color: transparent !important;
   -webkit-background-clip: text !important;
+}
+.btn.btn-secondary a :hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
 }
 .btn.center {
   width: fit-content;
@@ -341,6 +341,12 @@ nav.navbar .topnav a:hover {
     width: 100px;
     text-align: left
 }*/
+body.modal-open {
+  overflow: visible;
+  position: absolute !important;
+  height: 100%;
+}
+
 .modal-dialog.modal-dialog-centered {
   width: 80vw;
   max-width: 80vw;

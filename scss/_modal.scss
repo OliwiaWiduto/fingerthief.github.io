@@ -1,3 +1,9 @@
+body.modal-open {
+    overflow: visible;
+    position: absolute!important;
+    height: 100%;
+    }
+
 .modal-dialog.modal-dialog-centered {
     width: 80vw;
     max-width: 80vw;

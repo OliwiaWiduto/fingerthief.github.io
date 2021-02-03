@@ -1,6 +1,6 @@
 .btn {
     &.cta {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     &.btn-primary {
@@ -38,6 +38,16 @@
         a {
             color: #fbf2ff;
             white-space: normal;
+            p {
+            font-size: 1.2rem!important;
+            font-weight: 400 !important;
+            margin-bottom: 0rem;
+            &:hover {
+                background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #ff5990), color-stop(.35, #F39C12), color-stop(.45, #F1C40F), color-stop(.7, #76D7C4), color-stop(.85, #85C4FF), color-stop(1, #AE85FF)) !important;
+                background-image: gradient(linear, left top, right top, color-stop(0, #f22), color-stop(.15, #f2f), color-stop(.3, #22f), color-stop(.45, #2ff), color-stop(.6, #2f2), color-stop(.75, #2f2), color-stop(.9, #ff2), color-stop(1, #f22)) !important;
+                color: transparent !important;
+                -webkit-background-clip: text !important;
+            }
         }
 
         :hover {
@@ -45,17 +55,9 @@
             transition: all .2s ease-in-out;
         }
 
-        p {
-            font-size: 26px;
-            font-weight: 400 !important;
-            margin-bottom: 0rem;
+        
 
-            &:hover {
-                background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #E74C3C), color-stop(.35, #F39C12), color-stop(.45, #F1C40F), color-stop(.7, #76D7C4), color-stop(.85, #85C4FF), color-stop(1, #AE85FF)) !important;
-                background-image: gradient(linear, left top, right top, color-stop(0, #f22), color-stop(.15, #f2f), color-stop(.3, #22f), color-stop(.45, #2ff), color-stop(.6, #2f2), color-stop(.75, #2f2), color-stop(.9, #ff2), color-stop(1, #f22)) !important;
-                color: transparent !important;
-                -webkit-background-clip: text !important;
-            }
+            
         }
     }
 
