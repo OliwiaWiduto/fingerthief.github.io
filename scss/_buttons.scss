@@ -42,6 +42,9 @@
             font-size: 1.2rem!important;
             font-weight: 400 !important;
             margin-bottom: 0rem;
+            &.fancy:hover {
+                color: white !important;
+            }
             &:hover {
                 background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #ff5990), color-stop(.35, #F39C12), color-stop(.45, #F1C40F), color-stop(.7, #76D7C4), color-stop(.85, #85C4FF), color-stop(1, #AE85FF)) !important;
                 background-image: gradient(linear, left top, right top, color-stop(0, #f22), color-stop(.15, #f2f), color-stop(.3, #22f), color-stop(.45, #2ff), color-stop(.6, #2f2), color-stop(.75, #2f2), color-stop(.9, #ff2), color-stop(1, #f22)) !important;
